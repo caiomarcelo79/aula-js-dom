@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM fixação de conteúdo</title>
+
+  <script>
+    function somaNmr(){
+      const valorNmr1 = document.getElementById("nmr1").value
+      const valorNmr2 = document.getElementById("nmr2").value
+
+      const valorRslt = parseFloat(valorNmr1) + parseFloat(valorNmr2)
+
+      document.getElementById("rslt").innerHTML = valorRslt
+    }
+  </script>
+
+</head>
+<body>
+  <h1>Digite o primeiro valor</h1>
+  <input type="number" id="nmr1">
+
+  <h1>Digite o segundo valor</h1>
+  <input type="number" id="nmr2">
+  
+  <br><br>
+  <button onclick="somaNmr()">Resultado</button>
+
+  <h2>Resultado: <span id="rslt"></span></h2>
+
+</body>
+</html>
