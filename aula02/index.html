@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+  <link rel="shortcut icon" href="img/bolo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+  <button onclick="darkMode()">Dark Mode</button>
+
+  <!-- Esse é um campo de digitção de texto que irá armazenar o valor que você digitar nele -->
+  <!-- Estou identificando ele com o id = campoTexto -->
+  
+
+  <h2>largura atual: <span id="width"></span></h2>
+  <h2>altura atual: <span id="height"></span></h2>
+
+  <input type="color" id="campoCor" onchange="trocaCor()">
+  <h2 id="texto">Olha eu mudar de cor</h2>
+
+
+  <input type="text" id="campoEscrita" onchange="mudou()">
+  <h2 id="fraseLegal"></h2>
+
+  
+  <script src="script.js"></script>
+
+</body>
+</html>

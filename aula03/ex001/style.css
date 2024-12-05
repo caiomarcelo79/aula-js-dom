@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+
+.texto{
+    color: brown;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
